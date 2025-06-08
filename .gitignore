@@ -23,3 +23,20 @@ go.work.sum
 
 # env file
 .env
+
+# macOS系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 编辑器文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 日志文件
+*.log
+npm-debug.log*
+
+
