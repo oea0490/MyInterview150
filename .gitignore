@@ -26,6 +26,7 @@ go.work.sum
 
 # macOS系统文件
 .DS_Store
+*/.DS_Store
 .AppleDouble
 .LSOverride
 
@@ -34,9 +35,8 @@ go.work.sum
 .vscode/
 *.swp
 *.swo
+*.sublime-workspace
 
 # 日志文件
 *.log
 npm-debug.log*
-
-
