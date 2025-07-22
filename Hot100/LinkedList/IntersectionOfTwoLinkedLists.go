@@ -5,7 +5,7 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func getIntersectionNode(headA, headB *ListNode) *ListNode {
+func GetIntersectionNode(headA, headB *ListNode) *ListNode {
 	pa, pb := headA, headB
 	for pa != pb {
 		if pa == nil {
