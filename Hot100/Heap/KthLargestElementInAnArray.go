@@ -5,7 +5,7 @@ var (
 	heap []int
 )
 
-func findKthLargest(nums []int, k int) int {
+func FindKthLargestByHeap(nums []int, k int) int {
 	n := len(nums)
 	size = n
 	heap = make([]int, n+1)
