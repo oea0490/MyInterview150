@@ -1,6 +1,6 @@
 package DynamicProgramming
 
-func climbStairs(n int) int {
+func ClimbStairs(n int) int {
 	// 定义dp[i]为爬到第i阶的方法数
 	// 状态转移方程：dp[i] = dp[i-1] + dp[i-2]
 	// 初始状态：dp[0] = 1, dp[1] = 1
