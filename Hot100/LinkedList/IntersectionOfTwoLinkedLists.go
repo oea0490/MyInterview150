@@ -1,10 +1,5 @@
 package LinkedList
 
-type ListNode struct {
-	Val  int
-	Next *ListNode
-}
-
 func GetIntersectionNode(headA, headB *ListNode) *ListNode {
 	pa, pb := headA, headB
 	for pa != pb {
