@@ -1,11 +1,5 @@
 package BinaryTree
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
-
 func inorderTraversal(root *TreeNode) []int {
 	ans := []int{}
 	inorder(root, &ans)
