@@ -12,7 +12,7 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 		if l2 != nil {
 			val += l2.Val
 		}
-		cur.Next = InitListNodeWithVal(val % 10)
+		cur.Next = InitListNodeWithValue(val % 10)
 		carry = val / 10
 		cur = cur.Next
 		if l1 != nil {
