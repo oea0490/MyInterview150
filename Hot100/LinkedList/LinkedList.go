@@ -5,7 +5,7 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func InitListNodeWithVal(val int) *ListNode {
+func InitListNodeWithValue(val int) *ListNode {
 	return &ListNode{
 		Val:  val,
 		Next: nil,
