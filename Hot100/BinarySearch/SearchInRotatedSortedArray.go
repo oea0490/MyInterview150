@@ -4,12 +4,12 @@ func search(nums []int, target int) int {
 	n := len(nums)
 	// 第一次二分查找,先找到旋转点
 	left, right := 0, n-1
-	for left < right {
+	for left <= right {
 		mid := left + (right-left)/2
-		if nums[mid] > nums[right] {
+		if nums[mid] > nums[n-1] {
 			left = mid + 1
 		} else {
-			right = mid
+			right = mid - 1
 		}
 	}
 	rotate := left
